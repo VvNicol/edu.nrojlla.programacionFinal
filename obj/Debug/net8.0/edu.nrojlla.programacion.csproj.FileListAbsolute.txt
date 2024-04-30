@@ -1,0 +1,14 @@
+C:\Users\csi23-nrojlla\source\repos\edu.nrojlla.programacion\bin\Debug\net8.0\edu.nrojlla.programacion.exe
+C:\Users\csi23-nrojlla\source\repos\edu.nrojlla.programacion\bin\Debug\net8.0\edu.nrojlla.programacion.deps.json
+C:\Users\csi23-nrojlla\source\repos\edu.nrojlla.programacion\bin\Debug\net8.0\edu.nrojlla.programacion.runtimeconfig.json
+C:\Users\csi23-nrojlla\source\repos\edu.nrojlla.programacion\bin\Debug\net8.0\edu.nrojlla.programacion.dll
+C:\Users\csi23-nrojlla\source\repos\edu.nrojlla.programacion\bin\Debug\net8.0\edu.nrojlla.programacion.pdb
+C:\Users\csi23-nrojlla\source\repos\edu.nrojlla.programacion\obj\Debug\net8.0\edu.nrojlla.programacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\csi23-nrojlla\source\repos\edu.nrojlla.programacion\obj\Debug\net8.0\edu.nrojlla.programacion.AssemblyInfoInputs.cache
+C:\Users\csi23-nrojlla\source\repos\edu.nrojlla.programacion\obj\Debug\net8.0\edu.nrojlla.programacion.AssemblyInfo.cs
+C:\Users\csi23-nrojlla\source\repos\edu.nrojlla.programacion\obj\Debug\net8.0\edu.nrojlla.programacion.csproj.CoreCompileInputs.cache
+C:\Users\csi23-nrojlla\source\repos\edu.nrojlla.programacion\obj\Debug\net8.0\edu.nrojlla.programacion.dll
+C:\Users\csi23-nrojlla\source\repos\edu.nrojlla.programacion\obj\Debug\net8.0\refint\edu.nrojlla.programacion.dll
+C:\Users\csi23-nrojlla\source\repos\edu.nrojlla.programacion\obj\Debug\net8.0\edu.nrojlla.programacion.pdb
+C:\Users\csi23-nrojlla\source\repos\edu.nrojlla.programacion\obj\Debug\net8.0\edu.nrojlla.programacion.genruntimeconfig.cache
+C:\Users\csi23-nrojlla\source\repos\edu.nrojlla.programacion\obj\Debug\net8.0\ref\edu.nrojlla.programacion.dll

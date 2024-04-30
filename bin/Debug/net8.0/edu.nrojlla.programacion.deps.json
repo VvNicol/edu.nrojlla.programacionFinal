@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "edu.nrojlla.programacion/1.0.0": {
+        "runtime": {
+          "edu.nrojlla.programacion.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "edu.nrojlla.programacion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
