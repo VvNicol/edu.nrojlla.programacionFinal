@@ -14,25 +14,22 @@ namespace edu.nrojlla.programacion.Utils
     /// </summary>
     internal class Utils
     {
-        /// <summary>
-        /// Guarda el dni para luego buscarlo
-        /// </summary>
-        public static void GuardarDniDictionary()
+        private void constructorVacio()
         {
-            foreach (CitasDtos dni in Program.citaLista)
-            {
-                if (!Program.dniCitasDictionary.ContainsKey(dni.DniPaciente))
-                {
-                    Program.dniCitasDictionary.Add(dni.DniPaciente, dni);
-                }
-            }
-            foreach (CitasDtos consulta in Program.citaLista)
-            {
-                if (!Program.dniCitasDictionary.ContainsKey(consulta.Consulta))
-                {
-                    Program.dniCitasDictionary.Add(consulta.Consulta, consulta);
-                }
-            }
+            CitasDtos nuevo = new CitasDtos();
+
+            Console.WriteLine("Ingrese nombre");
+            string nombre = Console.ReadLine();
+
+            nuevo.NombrePaciente = nombre;
+
+            Console.WriteLine("Ingrese fecha (dd-mm-yyyy)");
+            DateTime date = Convert.ToDateTime(Console.ReadLine());
+
+            nuevo.FechaHoraCita = date;
+
+            Program.citaLista.Add(nuevo);
+
         }
     }
 }

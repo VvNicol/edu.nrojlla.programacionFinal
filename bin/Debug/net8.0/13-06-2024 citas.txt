@@ -1,0 +1,6 @@
+12345678Z;Alfonso;Fernández García;Psicologia;29-04-2024 12:30:00;true
+13121432R;Marta;Fernández Fernández;Psicologia;29-04-2024 13:00:00;false
+17165912O;Pedro;Collado Puente;Fisioterapia;30-04-2024 11:00:00;false
+37165912P;Laura;Quintero García;Psicologia;29-04-2024 13:30:00;true
+17165912O;Pedro;Collado Puente;Fisioterapia;29-04-2024 11:00:00;false
+37165912P;Laura;Quintero García;Psicologia;25-04-2024 13:30:00;false

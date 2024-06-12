@@ -16,59 +16,68 @@ namespace edu.nrojlla.programacion.Controlador
         /// </summary>
         public static List<CitasDtos> citaLista = new List<CitasDtos>();
 
-        public static Dictionary<string,CitasDtos> dniCitasDictionary = new Dictionary<string, CitasDtos> ();
-        public static Dictionary<string,CitasDtos> dniConsultaDictionary = new Dictionary<string, CitasDtos> ();
-
-        public static DateTime dateTime = DateTime.Now;
-        public static string formato = $"{dateTime.ToString("dd-MM-yyyy")}";
-        public static string citasFichero = $"{formato} citas.txt";
-        public static string logFichero = $"{formato} log.txt";
+        public static string citasFichero = $"{DateTime.Now.ToString("dd-MM-yyyy")} citas.txt";
+        public static string logFichero = $"{DateTime.Now.ToString("dd-MM-yyyy")} log.txt";
 
         static void Main(string[] args)
         {
             MenuInterfaz mi = new MenuImplementacion();
             OperativaInterfaz oi = new OperativaImplementacion();
-            
-
             FicherosInterfaz fi = new FicheroImplementacion();
 
             int opcionSeleccionada;
             bool esCerrado = false;
+
             try
             {
                 fi.LeerYguardar();
-                Utils.Utils.GuardarDniDictionary();
-
+                
                 do
                 {
-                   using (StreamWriter lg = new StreamWriter(logFichero,true))
-
                     opcionSeleccionada = mi.MenuPrincipal();
-
+                    string mensaje = $"{DateTime.Now.ToString("dd/MM/yyy HH:mm:ss")} - Menu Inicial, opcion : {opcionSeleccionada} ";
                     switch (opcionSeleccionada)
                     {
                         case 0:
-                            esCerrado=true;
-                            
+                            mensaje += "Cerrada";
+                            esCerrado = true;
+                            Console.WriteLine("Aplicacion cerrada");
                             break;
                         case 1:
-                             oi.RegistroLlegada();
+                            mensaje += "Registro llegada";
+                            oi.RegistroLlegada();
                             break;
 
                         case 2:
+                            mensaje += "Listado Consultas";
                             mi.ListadoConsultas();
                             break;
-                                
+
                         default:
+                            mensaje += "No valida";
                             Console.WriteLine("La opcion seleccionada no es valida");
                             break;
                     }
+                    ficheroLogger(mensaje);
 
-
-                }while (!esCerrado);
+                } while (!esCerrado);
 
             }
-            catch (Exception e) { Console.WriteLine("No se ha podido leer/escribir" + e.Message); return; }
+            catch (Exception e) { Console.WriteLine("No se ha podido leer/escribir" + e.Message); }
+        }
+        private static void ficheroLogger(string mensaje)
+        {
+            try
+            {
+                using (StreamWriter log = new StreamWriter(logFichero, true))
+                {
+                    log.WriteLine(mensaje);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("No se ha podido leer/escribir: " + e.Message);
+            }
         }
     }
 }

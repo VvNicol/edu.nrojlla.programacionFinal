@@ -1,5 +1,6 @@
 ﻿using edu.nrojlla.programacion.Controlador;
 using edu.nrojlla.programacion.Dtos;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace edu.nrojlla.programacion.Servicios
 {
@@ -9,6 +10,81 @@ namespace edu.nrojlla.programacion.Servicios
     /// </summary>
     internal class OperativaImplementacion : OperativaInterfaz
     {
+        public void MostrarConsultas(string especialidad)
+        {
+            try
+            {
+                DateTime date = SolicitudFecha();
+
+                var consultas = Program.citaLista.Where(v => v.Consulta == especialidad && v.FechaHoraCita.Date == date.Date).ToList();
+                consultas = consultas.OrderBy(v=>v.NombrePaciente).ToList();
+
+                if (consultas.Count() > 0)
+                {   
+                    Console.WriteLine("------------------------------");
+                    foreach (CitasDtos cita in consultas)
+                    {
+                        
+                        Console.WriteLine($"Nombre completo: {cita.ApellidosPaciente} {cita.NombrePaciente} , Hora: {cita.FechaHoraCita:HH:mm}");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("No hay consultas para la fecha especificada");
+                }
+
+            }
+            catch (Exception ex) { throw; }
+            
+        }
+        public void ImprimirConsultas(string especialidad)
+        {
+            try
+            {
+                DateTime date = SolicitudFecha();
+                string citaConAsistencia = $"citasConAsistencia-{DateTime.Now.ToString("dd-MM-yyyy")}.txt";
+                var consultas = Program.citaLista.Where(v => v.Consulta == especialidad && v.FechaHoraCita.Date == date.Date && v.EsAtendido == true).ToList();
+                consultas = consultas.OrderBy(v => v.NombrePaciente).ToList();
+
+                if (consultas.Count() > 0)
+                {
+                    Console.WriteLine("------------------------------");
+                    foreach (CitasDtos cita in consultas)
+                    {
+                        using(StreamWriter sw = new StreamWriter(citaConAsistencia,true))
+                        {
+                            sw.WriteLine($"Nombre completo: {cita.ApellidosPaciente} {cita.NombrePaciente} , Hora: {cita.FechaHoraCita:HH:mm} , Especialidad : {cita.Consulta}");
+                        }
+                        
+                    }
+                    Console.WriteLine("Se ha generado el informe");
+                }
+                else
+                {
+                    Console.WriteLine("No hay datos disponibles para la especialidad y fecha indicada");
+                }
+
+            }
+            catch (Exception ex) { throw; }
+        }
+
+        private DateTime SolicitudFecha()
+        {
+            while (true)
+            {
+                try
+                {
+                    Console.WriteLine("Elija una fecha (dd-mm-yyyy):");
+                    DateTime fecha = DateTime.Parse(Console.ReadLine());
+                    return fecha;
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Fecha inválida. Por favor, intente de nuevo.");
+                }
+            }
+        }
+
         public void RegistroLlegada()
         {
             try
@@ -35,10 +111,9 @@ namespace edu.nrojlla.programacion.Servicios
 
                     if (letraDni == letras[posicionResto])
                     {
-
-                        Console.WriteLine("DNI válido");
                         esValidoDni = true;
-
+                        dniPaciente = $"{dniDigitos}{letraDni}";  
+                        verificarConsulta(dniPaciente);
                     }
                     else
                     {
@@ -46,30 +121,40 @@ namespace edu.nrojlla.programacion.Servicios
                         Console.WriteLine("No es valido Intentelo otravez");
                     }
 
-                } while (!esValidoDni);  
-                verificarConsulta();
+                } while (!esValidoDni);
+
+
             }
             catch (Exception) { throw; }
         }
         /// <summary>
         ///     Verificar la consulta
         /// </summary>
-        private void verificarConsulta()
+        private void verificarConsulta(string dniPaciente)
         {
             try
             {
-                foreach (var cli in Program.dniCitasDictionary)
-                {
-                    foreach(CitasDtos cliDtos in Program.citaLista)
-                    {
-                        Console.WriteLine(cliDtos.ToString("espere", "turno"));
-                        break; 
-                    }
+                var citasPaciente = Program.citaLista.Where(v => v.DniPaciente == dniPaciente).ToList();
 
-                   break;
+                if (citasPaciente.Count > 0)
+                {
+                    foreach (CitasDtos cita in citasPaciente)
+                    {
+                        Console.WriteLine(cita.ToString("espere"));
+                    }
                 }
+                else
+                {
+                    Console.WriteLine("Usted no tiene cita con los especialistas");
+                }
+
             }
-            catch (Exception) { throw; }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+            }
         }
+
+        
     }
 }

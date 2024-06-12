@@ -9,6 +9,26 @@ namespace edu.nrojlla.programacion.Servicios
     internal class MenuImplementacion : MenuInterfaz
     {
         FicherosInterfaz fi = new FicheroImplementacion();
+        OperativaInterfaz oi = new OperativaImplementacion();
+        /// <summary>
+        /// guardar fichero
+        /// </summary>
+        /// <param name="mensaje"></param>
+        private static void ficheroLogger(string mensaje)
+        {
+            try
+            {
+                using (StreamWriter log = new StreamWriter(Program.logFichero, true))
+                {
+                    log.WriteLine(mensaje);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("No se ha podido leer/escribir: " + e.Message);
+            }
+        }
+        //TODO: Hace falta el menu ciclico en los subsmenus
         public void ListadoConsultas()
         {
             int opcionSeleccionada;
@@ -18,31 +38,105 @@ namespace edu.nrojlla.programacion.Servicios
                 do
                 {
                     opcionSeleccionada = MenuListadoConsultas();
+                    string mensaje = $"{DateTime.Now.ToString("dd/MM/yyy HH:mm:ss")} - Listado consultas, opcion : {opcionSeleccionada} : ";
+  
                     switch (opcionSeleccionada)
                     {
                         case 0:
+                            mensaje += "Volver";
                             esCerrado = true;
                             break;
                         case 1:
 
-                            fi.RegistroLlegada();
+                            int opcionConsulta = MenuEspecialidad();
+                            mensaje += "Menu tipo consultas: ";
+                            switch (opcionConsulta)
+                            {
+                                case 0:
+                                    mensaje += "Volver";
+                                    esCerrado = true;
+                                    break;
+                                case 1:
+                                    mensaje += "Psicologia";
+                                    string consulta = "Psicologia";
+                                    oi.MostrarConsultas(consulta);
+                                    break;
+                                case 2:
+                                    mensaje += "Traumatologia";
+                                    consulta = "Traumatologia";
+                                    oi.MostrarConsultas(consulta);
+                                    break;
+                                case 3:
+                                    mensaje += "Fisioterapia";
+                                    consulta = "Fisioterapia";
+                                    oi.MostrarConsultas(consulta);
+                                    break;
+                                default:
+                                    mensaje += "No valida";
+                                    Console.WriteLine("La opcion seleccionada no es valida");
+                                    break;
+                            }
 
                             break;
 
                         case 2:
-                          // mi.ListadoConsultas();
+                            opcionConsulta = MenuEspecialidad();
+                            mensaje += "Menu tipo consultas: ";
+                            switch (opcionConsulta)
+                            {
+                                case 0:
+                                    mensaje += "Volver";
+                                    esCerrado = true;
+                                    break;
+                                case 1:
+                                    mensaje += "Psicologia";
+                                    string consulta = "Psicologia";
+                                    oi.ImprimirConsultas(consulta);
+                                    break;
+                                case 2:
+                                    mensaje += "Traumatologia";
+                                    consulta = "Traumatologia";
+                                    oi.ImprimirConsultas(consulta);
+                                    break;
+                                case 3:
+                                    mensaje += "Fisioterapia";
+                                    consulta = "Fisioterapia";
+                                    oi.ImprimirConsultas(consulta);
+                                    break;
+                                default:
+                                    mensaje += "No valida";
+                                    Console.WriteLine("La opcion seleccionada no es valida");
+                                    break;
+                            }
+;
                             break;
-
-                        default:
-                            Console.WriteLine("La opcion seleccionada no es valida");
-                            break;
+                      
                     }
-
+                    ficheroLogger(mensaje);
 
                 } while (!esCerrado);
 
-            }catch (Exception) { throw; }
+            }
+            catch (Exception) { throw; }
 
+        }
+
+        private int MenuEspecialidad()
+        {
+            try
+            {
+                Console.WriteLine("---------------------");
+                Console.WriteLine("Especialidad");
+                Console.WriteLine("0.Volver");
+                Console.WriteLine("1.Psicologia");
+                Console.WriteLine("2.Traumatologia");
+                Console.WriteLine("3.Fisioterapia");
+                Console.WriteLine("---------------------");
+                int opcionElegida = Convert.ToInt32(Console.ReadLine());
+                return opcionElegida;
+
+            }
+            catch (Exception) { throw; }
         }
 
         /// <summary>
@@ -80,7 +174,8 @@ namespace edu.nrojlla.programacion.Servicios
                 int opcionElegida = Convert.ToInt32(Console.ReadLine());
                 return opcionElegida;
 
-            }catch (Exception) { throw; }
+            }
+            catch (Exception) { throw; }
         }
     }
 }

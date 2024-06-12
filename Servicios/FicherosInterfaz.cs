@@ -13,6 +13,6 @@
         /// <summary>
         /// Registro
         /// </summary>
-        void RegistroLlegada();
+        void ListadoConsultas();
     }
 }

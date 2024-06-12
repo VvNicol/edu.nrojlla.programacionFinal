@@ -22,18 +22,8 @@ namespace edu.nrojlla.programacion.Dtos
             string vistaFichero = $"{DniPaciente};{nombrePaciente};{apellidosPaciente};{fechaHoraCita};{esAtendido}";
             return vistaFichero;
         }
-        public string ToString(string imprimirConsultas)
-        {
-            string nombreImprimirConsultas =
-                $"---------------------------------------------------\n" +
-                $"Nombre: {nombrePaciente} {apellidosPaciente};\n" +
-                $"Fecha y hora: {fechaHoraCita}\n" +
-                $"Consulta: {consulta}" +
-                $"--------------------------------------------------";
-                               
-            return nombreImprimirConsultas;
-        }
-        public string ToString(string espere, string turno)
+       
+        public string ToString(string espere)
         {
             string salaEspera = $"Espere su turno para la consulta de {consulta} en la sala de espera. Su especialista le avisara";
 
@@ -60,5 +50,6 @@ namespace edu.nrojlla.programacion.Dtos
         public DateTime FechaHoraCita { get => fechaHoraCita; set => fechaHoraCita = value; }
         public bool EsAtendido { get => esAtendido; set => esAtendido = value; }
         public string DniPaciente { get => dniPaciente; set => dniPaciente = value; }
+        public string ApellidosPaciente { get => apellidosPaciente; set => apellidosPaciente = value; }
     }
 }

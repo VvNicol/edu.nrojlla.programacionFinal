@@ -1,0 +1,18 @@
+13/06/2024 00:15:12 - Menu Inicial, opcion : 1 Registro llegada
+13/06/2024 00:15:32 - Menu Inicial, opcion : 0 Cerrada
+13/06/2024 00:16:01 - Menu Inicial, opcion : 1 Registro llegada
+13/06/2024 00:16:27 - Menu Inicial, opcion : 0 Cerrada
+13/06/2024 00:20:48 - Menu Inicial, opcion : 1 Registro llegada
+13/06/2024 00:21:46 - Menu Inicial, opcion : 1 Registro llegada
+13/06/2024 00:22:07 - Menu Inicial, opcion : 1 Registro llegada
+13/06/2024 00:22:16 - Menu Inicial, opcion : 1 Registro llegada
+13/06/2024 00:22:21 - Menu Inicial, opcion : 0 Cerrada
+13/06/2024 00:23:10 - Menu Inicial, opcion : 1 Registro llegada
+13/06/2024 00:24:51 - Menu Inicial, opcion : 0 Cerrada
+13/06/2024 00:25:27 - Menu Inicial, opcion : 1 Registro llegada
+13/06/2024 00:25:52 - Listado consultas, opcion : 1 : Menu tipo consultas: Psicologia
+13/06/2024 00:26:42 - Listado consultas, opcion : 2 : Menu tipo consultas: Fisioterapia
+13/06/2024 00:27:17 - Listado consultas, opcion : 2 : Menu tipo consultas: Psicologia
+13/06/2024 00:27:37 - Listado consultas, opcion : 0 : Volver
+13/06/2024 00:25:51 - Menu Inicial, opcion : 2 Listado Consultas
+13/06/2024 00:27:38 - Menu Inicial, opcion : 0 Cerrada

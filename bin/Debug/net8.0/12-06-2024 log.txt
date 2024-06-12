@@ -1,0 +1,47 @@
+12/06/2024 21:20:39 - Listado consultas, opcion : 1 Menu consultasPsicologia
+12/06/2024 21:20:49 - Listado consultas, opcion : 0 Volver
+12/06/2024 21:20:36 - Menu Inicial, opcion : 2 Listado Consultas
+12/06/2024 21:21:14 - Listado consultas, opcion : 1 Menu consultasFisioterapia
+12/06/2024 21:21:20 - Listado consultas, opcion : 0 Volver
+12/06/2024 21:21:12 - Menu Inicial, opcion : 2 Listado Consultas
+12/06/2024 21:21:21 - Menu Inicial, opcion : 0 Cerrada
+12/06/2024 21:45:25 - Listado consultas, opcion : 1 : Menu tipo consultas Psicologia
+12/06/2024 21:45:58 - Listado consultas, opcion : 1 : Menu tipo consultas Psicologia
+12/06/2024 21:46:38 - Listado consultas, opcion : 0 : Volver
+12/06/2024 21:45:22 - Menu Inicial, opcion : 2 Listado Consultas
+12/06/2024 21:46:39 - Menu Inicial, opcion : 0 Cerrada
+12/06/2024 21:47:25 - Listado consultas, opcion : 1 : Menu tipo consultas Psicologia
+12/06/2024 21:48:04 - Listado consultas, opcion : 0 : Volver
+12/06/2024 21:47:22 - Menu Inicial, opcion : 2 Listado Consultas
+12/06/2024 21:48:05 - Menu Inicial, opcion : 0 Cerrada
+12/06/2024 21:51:27 - Listado consultas, opcion : 1 : Menu tipo consultas Psicologia
+12/06/2024 21:51:41 - Listado consultas, opcion : 0 : Volver
+12/06/2024 21:51:26 - Menu Inicial, opcion : 2 Listado Consultas
+12/06/2024 21:51:42 - Menu Inicial, opcion : 0 Cerrada
+12/06/2024 21:52:19 - Listado consultas, opcion : 1 : Menu tipo consultas Psicologia
+12/06/2024 21:53:07 - Listado consultas, opcion : 0 : Volver
+12/06/2024 21:52:19 - Menu Inicial, opcion : 2 Listado Consultas
+12/06/2024 21:53:08 - Menu Inicial, opcion : 0 Cerrada
+12/06/2024 21:55:44 - Listado consultas, opcion : 2 : 
+12/06/2024 21:55:46 - Listado consultas, opcion : 1 : Menu tipo consultas Psicologia
+12/06/2024 22:00:25 - Listado consultas, opcion : 1 : Menu tipo consultas Psicologia
+12/06/2024 22:01:29 - Listado consultas, opcion : 0 : Volver
+12/06/2024 22:00:24 - Menu Inicial, opcion : 2 Listado Consultas
+12/06/2024 22:01:33 - Listado consultas, opcion : 1 : Menu tipo consultas Fisioterapia
+12/06/2024 22:02:52 - Listado consultas, opcion : 3 : 
+12/06/2024 22:02:56 - Listado consultas, opcion : 1 : Menu tipo consultas Fisioterapia
+12/06/2024 22:03:44 - Listado consultas, opcion : 0 : Volver
+12/06/2024 22:01:31 - Menu Inicial, opcion : 2 Listado Consultas
+12/06/2024 22:03:46 - Menu Inicial, opcion : 0 Cerrada
+12/06/2024 22:42:50 - Listado consultas, opcion : 2 : Menu tipo consultas: Psicologia
+12/06/2024 22:43:31 - Listado consultas, opcion : 0 : Volver
+12/06/2024 22:42:47 - Menu Inicial, opcion : 2 Listado Consultas
+12/06/2024 22:44:54 - Listado consultas, opcion : 2 : Menu tipo consultas: Psicologia
+12/06/2024 22:46:46 - Menu Inicial, opcion : 1 Registro llegada
+12/06/2024 22:47:21 - Listado consultas, opcion : 1 : Menu tipo consultas: Psicologia
+12/06/2024 22:47:52 - Listado consultas, opcion : 2 : Menu tipo consultas: Psicologia
+12/06/2024 22:48:24 - Listado consultas, opcion : 2 : Menu tipo consultas: Fisioterapia
+12/06/2024 22:48:52 - Listado consultas, opcion : 2 : Menu tipo consultas: Fisioterapia
+12/06/2024 22:50:00 - Listado consultas, opcion : 0 : Volver
+12/06/2024 22:47:16 - Menu Inicial, opcion : 2 Listado Consultas
+12/06/2024 22:50:01 - Menu Inicial, opcion : 0 Cerrada

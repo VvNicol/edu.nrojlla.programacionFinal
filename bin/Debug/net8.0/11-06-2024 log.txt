@@ -1,0 +1,8 @@
+11/06/2024 22:33:15 - Menu Inicial, opcion : 1 Registro llegada
+11/06/2024 22:33:27 - Menu Inicial, opcion : 0 Cerrada
+11/06/2024 22:52:46 - Menu Inicial, opcion : 1 Registro llegada
+11/06/2024 22:53:10 - Menu Inicial, opcion : 0 Cerrada
+11/06/2024 22:53:15 - Menu Inicial, opcion : 1 Registro llegada
+11/06/2024 22:53:30 - Menu Inicial, opcion : 0 Cerrada
+11/06/2024 22:55:56 - Menu Inicial, opcion : 1 Registro llegada
+11/06/2024 22:57:03 - Menu Inicial, opcion : 0 Cerrada

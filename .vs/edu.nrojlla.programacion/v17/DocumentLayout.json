@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Arius\\source\\repos\\edu.nrojlla.programacionFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D10EF498-E1DD-4297-BC1F-5EF6914174EB}|edu.nrojlla.programacion.csproj|c:\\users\\arius\\source\\repos\\edu.nrojlla.programacionfinal\\servicios\\ficheroimplementacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10EF498-E1DD-4297-BC1F-5EF6914174EB}|edu.nrojlla.programacion.csproj|solutionrelative:servicios\\ficheroimplementacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10EF498-E1DD-4297-BC1F-5EF6914174EB}|edu.nrojlla.programacion.csproj|c:\\users\\arius\\source\\repos\\edu.nrojlla.programacionfinal\\servicios\\menuimplementacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10EF498-E1DD-4297-BC1F-5EF6914174EB}|edu.nrojlla.programacion.csproj|solutionrelative:servicios\\menuimplementacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10EF498-E1DD-4297-BC1F-5EF6914174EB}|edu.nrojlla.programacion.csproj|c:\\users\\arius\\source\\repos\\edu.nrojlla.programacionfinal\\controlador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10EF498-E1DD-4297-BC1F-5EF6914174EB}|edu.nrojlla.programacion.csproj|solutionrelative:controlador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10EF498-E1DD-4297-BC1F-5EF6914174EB}|edu.nrojlla.programacion.csproj|c:\\users\\arius\\source\\repos\\edu.nrojlla.programacionfinal\\servicios\\operativainterfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10EF498-E1DD-4297-BC1F-5EF6914174EB}|edu.nrojlla.programacion.csproj|solutionrelative:servicios\\operativainterfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10EF498-E1DD-4297-BC1F-5EF6914174EB}|edu.nrojlla.programacion.csproj|c:\\users\\arius\\source\\repos\\edu.nrojlla.programacionfinal\\servicios\\ficherosinterfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10EF498-E1DD-4297-BC1F-5EF6914174EB}|edu.nrojlla.programacion.csproj|solutionrelative:servicios\\ficherosinterfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10EF498-E1DD-4297-BC1F-5EF6914174EB}|edu.nrojlla.programacion.csproj|c:\\users\\arius\\source\\repos\\edu.nrojlla.programacionfinal\\servicios\\operativaimplementacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10EF498-E1DD-4297-BC1F-5EF6914174EB}|edu.nrojlla.programacion.csproj|solutionrelative:servicios\\operativaimplementacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10EF498-E1DD-4297-BC1F-5EF6914174EB}|edu.nrojlla.programacion.csproj|c:\\users\\arius\\source\\repos\\edu.nrojlla.programacionfinal\\dtos\\citasdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10EF498-E1DD-4297-BC1F-5EF6914174EB}|edu.nrojlla.programacion.csproj|solutionrelative:dtos\\citasdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D10EF498-E1DD-4297-BC1F-5EF6914174EB}|edu.nrojlla.programacion.csproj|c:\\users\\arius\\source\\repos\\edu.nrojlla.programacionfinal\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D10EF498-E1DD-4297-BC1F-5EF6914174EB}|edu.nrojlla.programacion.csproj|solutionrelative:utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OperativaInterfaz.cs",
+              "DocumentMoniker": "C:\\Users\\Arius\\source\\repos\\edu.nrojlla.programacionFinal\\Servicios\\OperativaInterfaz.cs",
+              "RelativeDocumentMoniker": "Servicios\\OperativaInterfaz.cs",
+              "ToolTip": "C:\\Users\\Arius\\source\\repos\\edu.nrojlla.programacionFinal\\Servicios\\OperativaInterfaz.cs",
+              "RelativeToolTip": "Servicios\\OperativaInterfaz.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T19:06:20.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FicherosInterfaz.cs",
+              "DocumentMoniker": "C:\\Users\\Arius\\source\\repos\\edu.nrojlla.programacionFinal\\Servicios\\FicherosInterfaz.cs",
+              "RelativeDocumentMoniker": "Servicios\\FicherosInterfaz.cs",
+              "ToolTip": "C:\\Users\\Arius\\source\\repos\\edu.nrojlla.programacionFinal\\Servicios\\FicherosInterfaz.cs",
+              "RelativeToolTip": "Servicios\\FicherosInterfaz.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T20:39:02.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Users\\Arius\\source\\repos\\edu.nrojlla.programacionFinal\\Utils\\Utils.cs",
+              "RelativeDocumentMoniker": "Utils\\Utils.cs",
+              "ToolTip": "C:\\Users\\Arius\\source\\repos\\edu.nrojlla.programacionFinal\\Utils\\Utils.cs",
+              "RelativeToolTip": "Utils\\Utils.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T20:29:01.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CitasDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Arius\\source\\repos\\edu.nrojlla.programacionFinal\\Dtos\\CitasDtos.cs",
+              "RelativeDocumentMoniker": "Dtos\\CitasDtos.cs",
+              "ToolTip": "C:\\Users\\Arius\\source\\repos\\edu.nrojlla.programacionFinal\\Dtos\\CitasDtos.cs",
+              "RelativeToolTip": "Dtos\\CitasDtos.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:48:11.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OperativaImplementacion.cs",
+              "DocumentMoniker": "C:\\Users\\Arius\\source\\repos\\edu.nrojlla.programacionFinal\\Servicios\\OperativaImplementacion.cs",
+              "RelativeDocumentMoniker": "Servicios\\OperativaImplementacion.cs",
+              "ToolTip": "C:\\Users\\Arius\\source\\repos\\edu.nrojlla.programacionFinal\\Servicios\\OperativaImplementacion.cs",
+              "RelativeToolTip": "Servicios\\OperativaImplementacion.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAIwJEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:40:27.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FicheroImplementacion.cs",
+              "DocumentMoniker": "C:\\Users\\Arius\\source\\repos\\edu.nrojlla.programacionFinal\\Servicios\\FicheroImplementacion.cs",
+              "RelativeDocumentMoniker": "Servicios\\FicheroImplementacion.cs",
+              "ToolTip": "C:\\Users\\Arius\\source\\repos\\edu.nrojlla.programacionFinal\\Servicios\\FicheroImplementacion.cs",
+              "RelativeToolTip": "Servicios\\FicheroImplementacion.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:27:57.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuImplementacion.cs",
+              "DocumentMoniker": "C:\\Users\\Arius\\source\\repos\\edu.nrojlla.programacionFinal\\Servicios\\MenuImplementacion.cs",
+              "RelativeDocumentMoniker": "Servicios\\MenuImplementacion.cs",
+              "ToolTip": "C:\\Users\\Arius\\source\\repos\\edu.nrojlla.programacionFinal\\Servicios\\MenuImplementacion.cs",
+              "RelativeToolTip": "Servicios\\MenuImplementacion.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAQwFMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:22:28.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Arius\\source\\repos\\edu.nrojlla.programacionFinal\\Controlador\\Program.cs",
+              "RelativeDocumentMoniker": "Controlador\\Program.cs",
+              "ToolTip": "C:\\Users\\Arius\\source\\repos\\edu.nrojlla.programacionFinal\\Controlador\\Program.cs",
+              "RelativeToolTip": "Controlador\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T18:53:56.059Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
